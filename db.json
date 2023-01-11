@@ -1,0 +1,221 @@
+{
+    "properties" : [
+        
+        {
+            "id": "301",
+            "name": "Intrepid Travel",
+            "image": "https://th.bing.com/th/id/OIP.cIUwIHlmusotnmNsRKWoggHaED?pid=ImgDet&rs=1",
+            "location": {
+                "city": "Asturias",
+                "country": "España"  
+            },
+            "area": "156 M²",
+            "rooms": {
+                "bath": 3,
+                "bed": 3,
+                "parking": 1
+            },
+            "type": "House",
+            "status": "For Sale",
+            "price": "630000.00",
+            "parking": true,
+            "description": "Caño, 4632781 Manzaneda, Asturias, España",
+            "owner": {
+                "name": "Christopher tomas",
+                "contact": "626864545"
+            }
+        },
+        {
+            "id": "302",
+            "name": "Defendify",
+            "image": "https://th.bing.com/th/id/OIP.4dWzoFfzsWyfrGe8SnyrOwHaFf?pid=ImgDet&rs=1",
+            "location": {
+                "city": "Toronto",
+                "country": "Canada"  
+            },
+            "area": "126 M²",
+            "rooms": {
+                "bath": 3,
+                "bed": 3,
+                "parking": 2
+            },
+            "type": "House",
+            "status": "For Rent",
+            "price": "530000.00",
+            "parking": true,
+            "description": "2030 Islington Ave, Toronto, Canada",
+            "owner": {
+                "name": "Julie Matthew",
+                "contact": "6472212595"
+            }
+        },
+        {
+            "id": "303",
+            "name": "Aims Community",
+            "image": "https://img.jamesedition.com/listing_images/2021/01/28/10/12/57/8722d173-4de7-4d19-9b61-dd2bcff792ab/je/620x465xc.jpg",
+            "location": {
+                "city": "Oshawa",
+                "country": "Canada"  
+            },
+            "area": "206 M²",
+            "rooms": {
+                "bath": 4,
+                "bed": 5,
+                "parking": 2
+            },
+            "type": "House",
+            "status": "For Sale",
+            "price": "751000.00",
+            "parking": true,
+            "description": "1809 Smith Avenue, Oshawa, ON, Canada",
+            "owner": {
+                "name": "Jane Philip",
+                "contact": "9055412441"
+            }
+        },
+        {
+            "id": "101",
+            "name": "Sunday Digital",
+            "image": "https://th.bing.com/th/id/OIP.EruppBdxwlSOaGymskm40QHaE8?pid=ImgDet&rs=1",
+            "location": {
+                "city": "Munich",
+                "country": "Germany"  
+            },
+            "area": "96 M²",
+            "rooms": {
+                "bath": 3,
+                "bed": 0,
+                "parking": 3
+            },
+            "type": "Office",
+            "status": "For Sale",
+            "price": "420000.00",
+            "parking": true,
+            "description": "376 Sunday Digital, Munich 21129, Germany",
+            "owner": {
+                "name": "Janice Abootalebi",
+                "contact": "01105634852"
+            }
+        },
+        {
+            "id": "102",
+            "name": "Percepta",
+            "image": "https://images.unsplash.com/photo-1542089363-bba089ffaa25?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+            "location": {
+                "city": "San Diego",
+                "country": "USA"  
+            },
+            "area": "135 M²",
+            "rooms": {
+                "bath": 4,
+                "bed": 2,
+                "parking": 5
+            },
+            "type": "Office",
+            "status": "For Rent",
+            "price": "410000.00",
+            "parking": true,
+            "description": "3160 W Fox Run Way San Diego, USA",
+            "owner": {
+                "name": "Alex foden",
+                "contact": "01105963852"
+            }
+        },
+        {
+            "id": "103",
+            "name": "Exela Movers",
+            "image": "https://th.bing.com/th/id/OIP.KKxIFMxBY4_Qp5bLGHDCqAHaFP?pid=ImgDet&rs=1",
+            "location": {
+                "city": "Orlando",
+                "country": "USA"  
+            },
+            "area": "78 M²",
+            "rooms": {
+                "bath": 2,
+                "bed": 1,
+                "parking": 2
+            },
+            "type": "Office",
+            "status": "For Sale",
+            "price": "560000.00",
+            "parking": true,
+            "description": "2800 Hitching Post Ln Orlando, USA",
+            "owner": {
+                "name": "Kate Sade",
+                "contact": "02410963852"
+            }
+        },{
+            "id": "201",
+            "name": "Ibotta, Inc",
+            "image": "https://images.unsplash.com/photo-1528698827591-e19ccd7bc23d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2076&q=80",
+            "location": {
+                "city": "London",
+                "country": "United Kingdom"  
+            },
+            "area": "120 M²",
+            "rooms": {
+                "bath": 1,
+                "bed": 2,
+                "parking": 1
+            },
+            "type": "Commercial",
+            "status": "For Sale",
+            "price": "420000.00",
+            "parking": true,
+            "description": "156 Gray's Inn Rd, London, United Kingdom",
+            "owner": {
+                "name": "John terry",
+                "contact": "568741230"
+            }
+        },
+        {
+            "id": "202",
+            "name": "Wanderu",
+            "image": "https://images.unsplash.com/photo-1527368746281-798b65e1ac6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1075&q=80",
+            "location": {
+                "city": "Las Vegas",
+                "country": "USA"  
+            },
+            "area": "80 M²",
+            "rooms": {
+                "bath": 1,
+                "bed": 1,
+                "parking": 0
+            },
+            "type": "Commercial",
+            "status": "For Sale",
+            "price": "320000.00",
+            "parking": false,
+            "description": "256 Gray's Inn Rd, London, United Kingdom",
+            "owner": {
+                "name": "Robert Johnson",
+                "contact": "50123641230"
+            }
+        },
+        {
+            "id": "203",
+            "name": "Aceable, Inc",
+            "image": "https://th.bing.com/th/id/OIP.kEX6CCcFVGvZHfW6f9_OyAHaE6?pid=ImgDet&rs=1",
+            "location": {
+                "city": "Clifton Reynes",
+                "country": "United Kingdom"  
+            },
+            "area": "76 M²",
+            "rooms": {
+                "bath": 2,
+                "bed": 2,
+                "parking": 0
+            },
+            "type": "Commercial",
+            "status": "For Rent",
+            "price": "120000.00",
+            "parking": false,
+            "description": "49 City Walls Rd, Clifton Reynes, United Kingdom",
+            "owner": {
+                "name": "Margaret Stephen",
+                "contact": "07942901591"
+            }
+        }
+        
+    ]
+}

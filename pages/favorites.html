@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Casa Royal - Favorites</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="nav-1">
+        <div class="nav-1-text">
+          <p>1441 Market St, San Francisco</p>
+          <p>(123) 456-7890</p>
+          <p>Mon - Sun: 8:00am - 6:00pm</p>
+        </div>
+        <button class="btn btn-blue">LOGIN/REGISTER</button>
+      </nav>
+
+      <nav class="nav-2">
+        <div class="nav-2-div">
+          <figure class="logo">
+            <img src="../assets/icon.png" alt="Logo casaRoyal" width="50" />
+            <p>casa<strong>Royal</strong></p>
+          </figure>
+
+          <ul class="nav-2-menu">
+            <li><a href="../index.html">HOMEPAGE</a></li>
+            <li><a href="../index.html">PROPERTIES</a></li>
+            <li><a href="../index.html">AGENCIES</a></li>
+            <li><a href="../index.html">PAGES</a></li>
+            <li><a href="../index.html">ABOUT</a></li>
+            <li><a href="../index.html">CONTACT</a></li>
+          </ul>
+        </div>
+
+        <div class="nav-2-btn">
+          <div id="favorites">
+            <a href="./favorites.html">FAVORITES</a>
+            <i class="bx bxs-heart"></i>
+          </div>
+          <button class="btn btn-orange btn-submit">SUBMIT LISTING</button>
+        </div>
+      </nav>
+    </header>
+
+    <section class="section-1" id="searching">
+      <div class="section-1-text">
+        <h1>Favorites Properties</h1>
+      </div>
+
+      <form action="" class="form-container" id="form">
+        <label for="type" class="label-select">
+          Type
+          <select name="type" id="type" class="select">
+            <option value="">--Select Type--</option>
+            <option value="Commercial">Commercial</option>
+            <option value="House">House</option>
+            <option value="Office">Office</option>
+            <option value="Residential">Residential</option>
+            <option value="Residential Tower">Residential Tower</option>
+          </select>
+        </label>
+
+        <label for="status" class="label-select">
+          Status
+          <select name="status" id="status" class="select">
+            <option value="">--Select Status--</option>
+            <option value="For Sale">For Sale</option>
+            <option value="For Rent">For Rent</option>
+          </select>
+        </label>
+
+        <input
+          type="text"
+          id="search"
+          class="input-search"
+          autocomplete="off"
+          placeholder="Searh for properties, suburbs or keywords…"
+        />
+
+        <button type="submit" id="btn-form" class="btn btn-blue">
+          FIND PROPERTIES
+        </button>
+      </form>
+    </section>
+
+    <section class="section-2" id="properties">
+      <div class="section-title">
+        <p>CASAROYAL REAL ESTATE AGENCY</p>
+        <h1>Favorites Properties</h1>
+      </div>
+
+      <div class="section-2-cards"></div>
+
+      <div class="section-2-btn">
+        <button type="button" id="btn-cards" class="btn btn-black">
+          ALL PROPERTIES
+        </button>
+      </div>
+    </section>
+
+    <section class="section-3" id="section-3">
+      <div class="section-3-detail"></div>
+    </section>
+
+    <script src="../main.js"></script>
+  </body>
+</html>

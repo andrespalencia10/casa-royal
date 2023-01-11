@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Casa Royal</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="nav-1">
+        <div class="nav-1-text">
+          <p>1441 Market St, San Francisco</p>
+          <p>(123) 456-7890</p>
+          <p>Mon - Sun: 8:00am - 6:00pm</p>
+        </div>
+        <button class="btn btn-blue">LOGIN/REGISTER</button>
+      </nav>
+
+      <nav class="nav-2">
+        <div class="nav-2-div">
+          <figure class="logo">
+            <img src="./images/icon.png" alt="Logo casaRoyal" width="50" />
+            <p>casa<strong>Royal</strong></p>
+          </figure>
+
+          <ul class="nav-2-menu">
+            <li><a href="#searching">HOMEPAGE</a></li>
+            <li><a href="#properties">PROPERTIES</a></li>
+            <li><a href="#agencies">AGENCIES</a></li>
+            <li><a href="#pages">PAGES</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+
+        <div class="nav-2-btn">
+          <div id="favorites">
+            <a href="./pages/favorites.html">FAVORITES</a>
+            <i class="bx bxs-heart"></i>
+          </div>
+          <button class="btn btn-orange btn-submit">SUBMIT LISTING</button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section-1" id="searching">
+        <div class="section-1-text">
+          <h1>Let Us Guide You Home</h1>
+        </div>
+        <div class="section-1-text">
+          <p>Find the house of your dreams</p>
+        </div>
+
+        <form action="" class="form-container" id="form">
+          <label for="type" class="label-select">
+            Type
+            <select name="type" id="type" class="select">
+              <option value="">--Select Type--</option>
+              <option value="Commercial">Commercial</option>
+              <option value="House">House</option>
+              <option value="Office">Office</option>
+              <option value="Residential">Residential</option>
+              <option value="Residential Tower">Residential Tower</option>
+            </select>
+          </label>
+
+          <label for="status" class="label-select">
+            Status
+            <select name="status" id="status" class="select">
+              <option value="">--Select Status--</option>
+              <option value="For Sale">For Sale</option>
+              <option value="For Rent">For Rent</option>
+            </select>
+          </label>
+
+          <input
+            type="text"
+            id="search"
+            class="input-search"
+            autocomplete="off"
+            placeholder="Searh for properties, suburbs or keywords…"
+          />
+
+          <button type="submit" id="btn-form" class="btn btn-blue">
+            FIND PROPERTIES
+          </button>
+        </form>
+      </section>
+
+      <section class="section-2" id="properties">
+        <div class="section-title">
+          <p>CASAROYAL REAL ESTATE AGENCY</p>
+          <h1>Featured Properties</h1>
+        </div>
+
+        <div class="section-2-cards"></div>
+
+        <div class="section-2-btn">
+          <button type="button" id="btn-cards" class="btn btn-black">
+            ALL PROPERTIES
+          </button>
+        </div>
+      </section>
+
+      <section class="section-3" id="section-3">
+        <div class="section-title">
+          <p>CASAROYAL REAL ESTATE AGENCY</p>
+          <h1>Hot Deal</h1>
+        </div>
+
+        <div class="section-3-detail">
+          <div class="property-detail">
+            <section class="detail-image">
+              <img
+                src="./images/isaac-benhesed-249429-unsplash-1.png"
+                alt=""
+                class="img-detail"
+              />
+              <p>Photos</p>
+            </section>
+
+            <section class="detail-info">
+              <p>Residential Towe For Rent</p>
+              <h3>15 Apartments of Type B</h3>
+              <p>Los Angeles, CA</p>
+              <button class="btn btn-orange">
+                From <strong>$1,700.00</strong> Per Month
+              </button>
+
+              <div class="property-info">
+                <div class="info-property">
+                  <i class="bx bx-building-house"></i>
+                  <div class="info-text">
+                    <p><strong>1600</strong></p>
+                    <p>Sq Ft</p>
+                  </div>
+                </div>
+
+                <div class="info-property">
+                  <i class="bx bx-bed"></i>
+                  <div class="info-text">
+                    <p><strong>2</strong></p>
+                    <p>Beds</p>
+                  </div>
+                </div>
+
+                <div class="info-property">
+                  <i class="bx bx-bath"></i>
+                  <div class="info-text">
+                    <p><strong>1</strong></p>
+                    <p>Bath</p>
+                  </div>
+                </div>
+
+                <div class="info-property">
+                  <i class="bx bxs-car-garage"></i>
+                  <div class="info-text">
+                    <p><strong>1</strong></p>
+                    <p>Garage</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-4" id="pages">
+        <div class="section-title">
+          <p>CASAROYAL REAL ESTATE AGENCY</p>
+          <h1>Properties by Area</h1>
+        </div>
+
+        <div class="section-4-images">
+          <figure>
+            <img src="./images/LA.png" alt="" width="410" />
+          </figure>
+          <figure>
+            <img src="./images/SF.png" alt="" width="840" />
+          </figure>
+        </div>
+
+        <div class="section-4-images">
+          <figure>
+            <img src="./images/SEATTLE.png" alt="" width="847" />
+          </figure>
+          <figure>
+            <img src="./images/SAN-DIEGO.png" alt="" width="400" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="section-5" id="agencies">
+        <div class="section-title">
+          <p>MEET OUR TEAM</p>
+          <h1>Our Agents</h1>
+        </div>
+
+        <div class="section-5-agents">
+          <div class="card-agent">
+            <figure>
+              <img src="./images/agent-1-3-500x375.png" alt="" />
+            </figure>
+            <div class="agent-info">
+              <p>Real Estate Broker</p>
+              <p class="agent-name">JOHN DOE</p>
+              <p>123 456 7890</p>
+              <p>agent@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="card-agent">
+            <figure>
+              <img src="./images/agent-3-1-500x375.png" alt="" />
+            </figure>
+            <div class="agent-info">
+              <p>Real Estate Broker</p>
+              <p class="agent-name">JANE DOE</p>
+              <p>123 456 7890</p>
+              <p>agent@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="card-agent">
+            <figure>
+              <img src="./images/agent-2-1-500x375.png" alt="" />
+            </figure>
+            <div class="agent-info">
+              <p>Real Estate Broker</p>
+              <p class="agent-name">JOHN DOE</p>
+              <p>123 456 7890</p>
+              <p>agent@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-6">
+        <div class="section-6-container">
+          <h2>Want to Sell Property?</h2>
+          <p>
+            Let us create a tailored strategic marketing plan and keep track of
+            the selling process.
+          </p>
+          <button class="btn btn-black">MORE DETAILS</button>
+        </div>
+      </section>
+
+      <section class="section-7" id="contact">
+        <div class="section-title">
+          <p>MEET OUR TEAM</p>
+          <h1>Real Estate Agencies</h1>
+        </div>
+
+        <div class="cards-estate">
+          <figure>
+            <img src="./images/state-1.png" alt="" />
+          </figure>
+          <figure>
+            <img src="./images/state-2.png" alt="" />
+          </figure>
+          <figure>
+            <img src="./images/state-3.png" alt="" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="section-8" id="about">
+        <div class="section-title">
+          <p>CASAROYAL REAL ESTATE AGENCY</p>
+          <h1>Our Values</h1>
+        </div>
+
+        <div class="section-8-card">
+          <div class="text-card">
+            <h3>Ensuring clear communication</h3>
+            <p>
+              We keep you in the loop every step of the way. You can rely on a
+              transparent, comprehensible flow of information.
+            </p>
+          </div>
+
+          <div class="text-card">
+            <h3>Making the most of technology</h3>
+            <p>
+              Time is precious. We guarantee a high degree of efficiency and a
+              premium level of service by using the right tools.
+            </p>
+          </div>
+
+          <div class="text-card">
+            <h3>Providing excellent customer service</h3>
+            <p>
+              We are passionate about what we do and we take pride in achieving
+              the personalised results that you have in mind.
+            </p>
+          </div>
+        </div>
+
+        <div class="section-8-btn">
+          <button type="button" class="btn btn-black">READ MORE</button>
+        </div>
+      </section>
+
+      <section class="section-9">
+        <div class="section-9-title">
+          <p>CLIENTS REVIEWS</p>
+          <h2>What Our Clients Say</h2>
+        </div>
+
+        <div class="section-9-text">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+            eleifend nunc sem, sit amet luctus tellus tempus tempor. Interdum et
+            malesuada fames ac ante ipsum primis in faucibus.
+          </p>
+        </div>
+
+        <div class="section-9-img">
+          <figure>
+            <img src="./images/agent-3-1-500x375.png" alt="" />
+          </figure>
+          <div>
+            <p>ALAN POE</p>
+            <p>SAN FRANCISCO</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <figure class="logo footer-logo">
+        <img src="./images/icon.png" alt="Logo casaRoyal" width="70" />
+        <p>casa<strong>Royal</strong></p>
+      </figure>
+
+      <div class="footer-menu">
+        <div class="footer-info">
+          <h5>INFORMATION</h5>
+          <ul>
+            <li>Our Contacts</li>
+            <li>Privacy Policy</li>
+            <li>terms and Conditions</li>
+            <li>FAQs</li>
+          </ul>
+        </div>
+
+        <div class="footer-info">
+          <h5>PROPERTIES</h5>
+          <ul>
+            <li>Commercial</li>
+            <li>House</li>
+            <li>Office</li>
+            <li>Residential</li>
+            <li>Residential Tower</li>
+          </ul>
+        </div>
+
+        <div class="footer-info">
+          <h5>LOCATIONS</h5>
+          <ul>
+            <li>Beverly Hills</li>
+            <li>Los Angeles</li>
+            <li>Mission Viejo</li>
+            <li>Newport Beach</li>
+            <li>Pasadena</li>
+          </ul>
+        </div>
+
+        <div class="footer-info">
+          <h5>USEFULL LINKS</h5>
+          <ul>
+            <li>Blog</li>
+            <li>Our Contacts</li>
+            <li>Submit Listing</li>
+            <li>Support</li>
+          </ul>
+        </div>
+
+        <div class="footer-info">
+          <h5>USEFULL LINKS</h5>
+          <p>
+            casaRoyal - Premium Real Estate WordPress Theme by FantasyThemes
+          </p>
+          <p>111 Wall Stree, USA, New York +1 (234) 567 8900</p>
+        </div>
+      </div>
+
+      <div class="final-footer">
+        <p>Proudly powered by WordPress and casaRoyal by FantasyTheme</p>
+        <ul>
+          <li>Privacy Policy</li>
+          <li>Terms and Conditions</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
